@@ -20,6 +20,6 @@
         <ipRelaxation>ENFORCE</ipRelaxation>
         <refreshTokenPolicy>infinite</refreshTokenPolicy>
     </oauthPolicy>
-    <contactEmail>your-email@example.com</contactEmail>
+    <contactEmail>patrick.dennis@salesforce.com</contactEmail>
     <description>Connected App for Thespis - Agentforce demo platform. Enables OAuth org discovery and Agent API access.</description>
 </ConnectedApp>
