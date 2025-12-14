@@ -1,0 +1,30 @@
+# Salesforce
+.sfdx/
+.sf/
+**/__pycache__/
+**/.DS_Store
+
+# Node modules (if using any npm packages)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+

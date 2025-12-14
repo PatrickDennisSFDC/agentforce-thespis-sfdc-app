@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Thespis</label>
+    <oauthConfig>
+        <callbackUrl>https://your-app.herokuapp.com/api/salesforce/oauth/callback</callbackUrl>
+        <consumerKey>YOUR_CONSUMER_KEY_WILL_BE_GENERATED</consumerKey>
+        <isConsumerKeyOptional>false</isConsumerKeyOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OfflineAccess</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>ID</scopes>
+        <scopes>Profile</scopes>
+        <scopes>Email</scopes>
+        <scopes>ChatbotApi</scopes>
+        <scopes>SfapApi</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <contactEmail>your-email@example.com</contactEmail>
+    <description>Connected App for Thespis - Agentforce demo platform. Enables OAuth org discovery and Agent API access.</description>
+</ConnectedApp>
+
